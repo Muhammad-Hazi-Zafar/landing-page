@@ -107,3 +107,24 @@ h3 {
     text-align: center;
     color: #4b5563;
 }
+
+/* Section 3 */
+
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 300px 100px;
+}
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 0;
+}
+.speaker {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 30px;
+}
