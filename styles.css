@@ -128,3 +128,41 @@ h3 {
     font-weight: 900;
     font-size: 30px;
 }
+
+/* Section 4 */
+
+.section-4 {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.banner {
+    box-sizing: border-box;
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    border-radius: 12px;
+}
+.heading-sec-4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.banner-left {
+    align-self: center;
+}
+.banner-left button {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 5px #f9faf8 solid;
+}
