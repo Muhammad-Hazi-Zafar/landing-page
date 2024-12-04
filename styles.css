@@ -6,6 +6,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Section 1 */
+
 .section-1 {
     background-color: #1F2937;
     display: flex;
@@ -17,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 1000;
 }
 ul{
@@ -26,7 +29,7 @@ ul{
     margin: 0;
     padding: 0;
     gap: 20px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 10;
 }
 a {
@@ -42,6 +45,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     color: #e5e7eb;
     gap: 20px;
 }
@@ -49,22 +53,22 @@ a {
 h2 {
     color: #f9faf8;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 60px;
     margin: 0;
 }
 p {
     margin: 0;
+    font-size: 22px;
 }
 
 .content-1-right button {
-    width: 120px;
-    height: 30px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
     background-color: #3882F6;
     color: #f9faf8;
     border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 6px 40px;
 }
 .content-left img {
     width: 100%;
@@ -90,6 +94,7 @@ h3 {
 .content-2 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 .section-2 {
@@ -115,13 +120,12 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px 300px 100px;
+    padding: 110px 300px 100px;
 }
 .quote {
     font-size: 40px;
     font-style: italic;
-    color: #1F2937;
-    font-weight: 0;
+    color: #1f2937;
 }
 .speaker {
     align-self: flex-end;
