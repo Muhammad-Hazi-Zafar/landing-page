@@ -166,3 +166,12 @@ h3 {
     color: #f9faf8;
     border: 5px #f9faf8 solid;
 }
+
+/* Section 5 */
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    color: #f9faf8;
+    background-color: #1F2937;
+}
